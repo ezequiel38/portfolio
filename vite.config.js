@@ -4,7 +4,7 @@ import babel from '@rolldown/plugin-babel'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/bizznest-assessment.git',
+  base: '/bizznest-assessment/',
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] })
